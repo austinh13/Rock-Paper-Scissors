@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    background-color: #B8CFCE;
+}
+
+/* header */
+.header{
+    background-color: #333446;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header h1{
+    margin: auto;
+    padding-top: 20px;
+    font-size: 38px;
+}
+.header p{
+    font-size: 30px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* playing Field */
+
+.playField{
+    background-color: #7F8CAA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score{
+    font-size: 35px;
+    margin: 0px;
+    padding-top: 25px;
+}
+
+/* display choices */ 
+.display{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.pictures{
+    width: 75px;
+    height: 90px;
+    padding: 25px;
+}
+
+/* player choices */
+
+.choices{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:25px;
+    padding-bottom: 15px;
+}
+
+.choices button{
+    width: 110px;
+    height: 110px;
+    font-size: 75px;
+    background: transparent;
+    border: 0cm;
+}
