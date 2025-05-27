@@ -70,3 +70,40 @@ body{
     background: transparent;
     border: 0cm;
 }
+
+/* game record */
+
+.gameRecord{
+    background-color: #71C0BB;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.gameRecord h1{
+    color: rgba(255, 255, 255, 0.798);
+    font-size: 40px;
+}
+
+.gameRecord p{
+    color: rgba(255, 255, 255, 0.798);
+    font-size: 32px;
+}
+
+.copyRight{
+    background-color: #E3EEB2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 750px) {
+  .choices button{
+    width: 95px;
+    height: 95px;
+    font-size: 65px;
+    background: transparent;
+    border: 0cm;
+  }
+}
